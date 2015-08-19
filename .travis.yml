@@ -1,10 +1,5 @@
-## Add this file to your meteor package as `.travis.yml`
-
-sudo: required
 language: node_js
 node_js:
-  - "0.10"
+  - "0.12"
 before_install:
-  - "curl https://install.meteor.com/ | sh"
-script:
-  - "meteor run --test"
+  - "curl -L https://raw.githubusercontent.com/arunoda/travis-ci-meteor-packages/master/configure.sh | /bin/sh"
