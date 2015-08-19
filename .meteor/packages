@@ -9,3 +9,4 @@ insecure
 meteorflux:dispatcher
 sanjo:jasmine
 velocity:html-reporter
+coffeescript
