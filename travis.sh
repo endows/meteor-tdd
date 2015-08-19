@@ -1,2 +1,2 @@
 #!/bin/sh
-meteor
+meteor run --test
