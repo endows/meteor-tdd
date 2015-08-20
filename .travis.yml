@@ -3,4 +3,5 @@ node_js:
   - "0.12"
 before_install:
   - "curl -L https://raw.githubusercontent.com/arunoda/travis-ci-laika/master/configure.sh | /bin/sh"
-env: TEST_COMMAND=./travis.sh
+script:
+  - meteor run --test
