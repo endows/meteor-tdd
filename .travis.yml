@@ -2,6 +2,6 @@ language: node_js
 node_js:
   - "0.12"
 before_install:
-  - "curl https://install.meteor.com/ | sh"
+  - "curl -L http://git.io/ejPSng | /bin/sh"
 script:
   - meteor run --test
