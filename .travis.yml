@@ -4,6 +4,7 @@ sudo: required
 language: node_js
 node_js:
   - "0.10"
-
+script:
+  - meteor run --test
 before_install:
   - "curl -L http://git.io/ejPSng | /bin/sh"
